@@ -7,7 +7,7 @@ int main(void)
 {
 	char exc;
 
-	for (exc = 'a'; exc = 'z'; exc++)
+	for (exc = 'a'; exc <= 'z'; exc++)
 	{
 		if (exc != 'e' && exc != 'p')
 			putchar(exc);
