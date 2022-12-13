@@ -13,11 +13,11 @@ int main(void)
 	long long int d;
 	float f;
 
-	printf("Size of an char: %lu byte(s)/n"), (long unsigned int)sizeof(a));
-	printf("Size of an int: %lu bytes(s)/n"), (long unsigned int)sizeof(b));
-	printf("Size of an long int: %lu bytes(s)/n"), (long unsigned int)sizeof(c));
-	printf("Size of an long long int: %lu bytes(s)/n"), (long unsigned intg)sizeof(d));
-	printf("Size of an float: %lu bytes(s)/n"), (long unsigned int)sizeof(f));
+	printf("Size of an char: %lu byte(s)/n"), (unsigned longt)sizeof(a));
+	printf("Size of an int: %lu bytes(s)/n"), (unsigned long)sizeof(b));
+	printf("Size of an long int: %lu bytes(s)/n"), (unsigned long)sizeof(c));
+	printf("Size of an long long int: %lu bytes(s)/n"), (unsigned long)sizeof(d));
+	printf("Size of an float: %lu bytes(s)/n"), (unsigned long)sizeof(f));
 	return (0);
 }
 
