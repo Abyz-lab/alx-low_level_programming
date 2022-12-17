@@ -3,7 +3,7 @@
 /**
  * main -test functioor if prints postive or negative.
  * @i: the num to be checked.
- * Return: void
+ * Return: 0
  */
 
  int main(void)
