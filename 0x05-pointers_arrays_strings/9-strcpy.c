@@ -1,19 +1,19 @@
 #include "main.h"
-#include <stdio.h>
 /**
- *  * print_array - prints n element of an array of integers
- * @a: int to check
- * @n: int to check
- * Return: 0 is success
+ * _strcpy - copies the string pointed to by src,
+ * including the terminating null byte
+ * @dest: file destination
+ * @src: file to be copied
+ * Return: copy
  */
-void print_array(int *a, int n)
+char *_strcpy(char *dest, char *src)
 {
-	int x;
-	
-	for (x = 0; x < n; x++)
-		if (x != n - 1)
-			printf("%d, ", a[x]);
-		else
-			printf("%d", a[x]);
-	printf("\n");
+	int i;
+
+	for (i = 0; src[i] != '\0'; i++)
+	{
+		dest[i] = src[i];
+	}
+	dest[i] = '\0';
+	return (dest);
 }
